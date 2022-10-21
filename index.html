@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left"></div>
+      <div class="right">
+        <form action="">
+          <p class="form-title">BIODATA</p>
+          <div class="grid">
+            <div class="form-group">
+              <label for="">Nama</label>
+              <input type="text" name="nama" />
+            </div>
+            <div class="form-group">
+              <label for="">Password</label>
+              <input type="password" name="password" />
+            </div>
+          </div>
+          <div class="grid">
+            <div class="form-group">
+              <label for="">Agama</label>
+              <select name="agama" id="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen Protestan">Kristen Protestan</option>
+                <option value="Kristen Katolik">Kristen Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Konghucu">Konghucu</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="">Alamat</label>
+              <input type="text" name="alamat" />
+            </div>
+          </div>
+          <div class="grid">
+            <div class="form-group">
+              <label for="">Jenis Kelamin</label>
+              <label for="jkl1"
+                ><input type="radio" name="jkl" id="jkl1" /> Wanita</label
+              >
+              <label for="jkl2"
+                ><input type="radio" name="jkl" id="jkl2" /> Pria</label
+              >
+            </div>
+            <div class="form-group">
+              <label for="">Hobby</label>
+              <label for="hobi1"
+                ><input type="checkbox" name="hobi" id="hobi1" /> Basket</label
+              >
+              <label for="hobi2"
+                ><input type="checkbox" name="hobi" id="hobi2" />
+                Badminton</label
+              >
+              <label for="hobi3"
+                ><input type="checkbox" name="hobi" id="hobi3" /> Renang</label
+              >
+              <label for="hobi4"
+                ><input type="checkbox" name="hobi" id="hobi4" /> Lainnya</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="moto">Moto Hidup</label>
+            <textarea name="moto" id="moto" cols="30" rows="10"></textarea>
+          </div>
+          <div class="grid">
+            <button type="reset" class="cancel">Ulangi</button>
+            <button type="reset" class="submit">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
