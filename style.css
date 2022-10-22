@@ -53,15 +53,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto;
+}
+
+form{
+    padding: 2rem;
+    min-width: 700px;
 }
 
 form .form-title{
     font-size: 3rem;
     font-weight: 600;
     color: white;
-    min-width: 700px;
     position: relative;
-    margin-bottom: 40px;
+    margin: 40px 0px;
 }
 
 form .form-title::before{
