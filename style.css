@@ -162,3 +162,24 @@ button.submit{
 button.submit:hover{
     box-shadow: 0px 0px 40px rgba(255, 132, 132, .5);
 }
+
+@media screen and (max-width: 1400px) {
+    .container .left{
+        display: none;
+    }
+
+    .container .right{
+        display: block;
+        width: 100%;
+    }
+
+    form{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
